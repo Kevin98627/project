@@ -1,13 +1,11 @@
-option indexes
 <IfModule mod_rewrite.c>
 
-options -Multiviews
-
-RewriteEngine off
+Options -Multiviews
+RewriteEngine on
 RewriteBase /web/public/
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ index.php?url=$1[QSA,L]
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
 
 
 </IfModule>

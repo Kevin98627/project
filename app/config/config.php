@@ -12,6 +12,6 @@ define('DB_PASSWORD' , '');
 define ('URL_APP' , dirname(dirname(__FILE__)));
 define ('URL_PROJECT' , 'http://localhost/web');
 define ('NAME_PROJECT' , 'web');
-echo  URL_APP;
+
 
 

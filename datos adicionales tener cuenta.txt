@@ -1,0 +1,3 @@
+muestra los datos 
+
+var_dump($datosUsuario);
