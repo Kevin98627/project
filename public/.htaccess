@@ -1,3 +1,4 @@
+option indexes
 <IfModule mod_rewrite.c>
 
 options -Multiviews

@@ -1,9 +1,9 @@
 <?php
 
 //llamando a coonfig
-require_once 'config/config.php'
+require_once 'config/config.php';
 
-//llamando a helpeers
+//llamando a helpers
 
 require_once 'helpers/url_helper.php';
 
